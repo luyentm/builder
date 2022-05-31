@@ -12,7 +12,7 @@
     </div>
     <div class="w-50 h-50 flex justify-center items-center bg-white shadow-lg z-50">
       <h1 class="text-xl font-semibold uppercase select-none">
-        Luyen's BUILDER
+        BUILDER
       </h1>
     </div>
 
