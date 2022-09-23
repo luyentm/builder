@@ -15,12 +15,12 @@
           class="!outline-none text-gray-400 hover:text-orange-300"
           to="/animations/slide-over">slide-over</nuxt-link>
       </div>
-      <div class="w-4/5 w-full h-full">
-        <nuxt class="w-full" />
+      <div class="w-full flex-1 overflow-hidden">
+        <nuxt />
       </div>
     </div>
     <div
-      class="w-full flex justify-center items-center space-x-3 border-t border-black">
+      class="w-full h-10 flex justify-center items-center space-x-3 border-t border-black">
       <nuxt-link
         class="!outline-none text-gray-400 hover:text-orange-300"
         to="/">home</nuxt-link>
@@ -30,6 +30,9 @@
       <nuxt-link
         class="!outline-none text-gray-400 hover:text-orange-300"
         to="/animations/fade">animations</nuxt-link>
+      <nuxt-link
+        class="!outline-none text-gray-400 hover:text-orange-300"
+        to="/components/menu">components</nuxt-link>
     </div>
   </div>
 </template>
