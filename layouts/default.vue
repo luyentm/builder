@@ -11,10 +11,7 @@
         to="/builder">builder</nuxt-link>
       <nuxt-link
         class="!outline-none text-gray-400 hover:text-orange-300"
-        to="/animate">animate</nuxt-link>
-      <nuxt-link
-        class="!outline-none text-gray-400 hover:text-orange-300"
-        to="/animation">animation</nuxt-link>
+        to="/animations/animation">animations</nuxt-link>
     </div>
   </div>
 </template>

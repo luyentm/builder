@@ -3,7 +3,7 @@
     <button @click="show = !show">Toggle</button>
     <div class="w-50 overflow-hidden">
       <Transition name="slide-fade">
-        <p class="text-yellow-500" v-if="show">hello</p>
+        <p class="text-white text-6xl" v-if="show">hello</p>
       </Transition>
     </div>
   </div>
@@ -12,6 +12,7 @@
 <script>
 export default {
   name: 'IndexPage',
+  layout: "animations",
   data() {
     return {
       show: false
