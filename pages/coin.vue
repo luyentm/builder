@@ -2,14 +2,14 @@
   <div class="w-full h-full relative px-14">
     <div class="absolute z-0 w-full h-full">
       <div class=" relative w-full h-full">
-        <div class="absolute bottom-0 w-500 h-500 grad1 transform translate-y-2/3 -translate-x-1/4"> </div>
         <div class="absolute top-0 w-500 h-500 grad2 transform -translate-y-1/2 translate-x-1/4"> </div>
+        <div class="absolute bottom-0 w-500 h-full grad1 transform translate-y-2/3 -translate-x-1/4"> </div>
       </div>
     </div>
     <div class="relative w-full h-full flex flex-col justify-center items-center z-50 ">
       <div class="w-full h-18 flex items-center justify-between ">
         <div>
-          <img src="/images/logo.png" alt="">
+          <img src="/builder/images/logo.png" alt="">
         </div>
         <div class="flex items-center justify-between space-x-4 h-full">
           <div class="flex justify-center items-center space-x-8 px-8 text-white font-semibold">
@@ -25,13 +25,13 @@
           </div>
           <div class="h-2/3 w-1px bg-white"></div>
           <div>
-            <img class="h-4" src="/images/discord.png" alt="">
+            <img class="h-4" src="/builder/images/discord.png" alt="">
           </div>
           <div>
-            <img class="h-4" src="/images/telegram.png" alt="">
+            <img class="h-4" src="/builder/images/telegram.png" alt="">
           </div>
           <div>
-            <img class="h-4" src="/images/twitter.png" alt="">
+            <img class="h-4" src="/builder/images/twitter.png" alt="">
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
         <div class="w-full flex justify-center items-center">
           <div class="w-full relative">
             <div class="relative w-150 z-50">
-              <img src="/images/53124.png" alt="">
+              <img src="/builder/images/53124.png" alt="">
             </div>
             <div class="absolute z-1 right-0 top-1/2 h-28 mt-10 w-2/3 transform -translate-y-1/2 bg-white/10 border-1 rounded-lg border-gray-500">
               <div class="flex h-full justify-end items-center pr-12">
@@ -57,13 +57,13 @@
               <input type="text" class="w-full h-full bg-transparent border_color">
             </div>
             <div class="flex h-full justify-end items-center px-8 h-full  bg-blue bg-gradient-to-r from-[#650960] to-yellow-[#F70D73]">
-                <div class="text-white font-bold text-xl">Approve</div>
-              </div>
+              <div class="text-white font-bold text-xl">Approve</div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
