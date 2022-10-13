@@ -1,10 +1,13 @@
 <template>
   <div class="w-full h-screen flex flex-col bg-gray-800">
-    <div class="flex-1 flex">
+    <div class="flex-1 flex overflow-hidden">
       <div class="w-1/5 border-r border-black p-3 flex flex-col space-y-1">
         <nuxt-link
           class="!outline-none text-gray-400 hover:text-orange-300"
           to="/components/menu">menu</nuxt-link>
+        <nuxt-link
+          class="!outline-none text-gray-400 hover:text-orange-300"
+          to="/components/expand">expand</nuxt-link>
       </div>
       <div class="w-4/5 w-full h-full">
         <nuxt class="w-full" />

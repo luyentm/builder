@@ -7,9 +7,6 @@
           to="/animations/fade">fade</nuxt-link>
         <nuxt-link
           class="!outline-none text-gray-400 hover:text-orange-300"
-          to="/animations/expand">expand</nuxt-link>
-        <nuxt-link
-          class="!outline-none text-gray-400 hover:text-orange-300"
           to="/animations/slide">slide</nuxt-link>
         <nuxt-link
           class="!outline-none text-gray-400 hover:text-orange-300"
