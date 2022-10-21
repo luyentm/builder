@@ -8,6 +8,9 @@
         <nuxt-link
           class="!outline-none text-gray-400 hover:text-orange-300"
           to="/components/expand">expand</nuxt-link>
+        <nuxt-link
+          class="!outline-none text-gray-400 hover:text-orange-300"
+          to="/components/popup">popup</nuxt-link>
       </div>
       <div class="w-4/5 w-full h-full">
         <nuxt class="w-full" />
