@@ -1,9 +1,8 @@
 <template>
-  <div class="w-full h-full p-5 bg-red-100">
-    <div class="w-full h-full bg-blue-200 flex justify-center items-center flex-col">
+  <div class="w-full h-full p-5 bg-red-100 overflow-y-auto">
+    <div class="w-full h-full bg-blue-200 flex flex-col p-3 overflow-y-auto">
       <button @click="show =!show">show</button>
-
-      <div v-for="i in 50" :key="i">
+      <div v-for="i in 60" :key="i">
         <span>
           linelinelinelinelineline linelinelinelinelineline {{i}}
         </span>
@@ -22,7 +21,7 @@
 
 <script>
 export default {
-  layout: "scroll",
+  layout: "components",
   data() {
     return {
       show: false
